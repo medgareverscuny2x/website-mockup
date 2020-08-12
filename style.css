@@ -3,7 +3,6 @@ body{
     padding: 0px;
     margin: 0px;
     font-family: sans-serif;
-    /* border: 1px solid black; */
 }
 
 .nav-links{
@@ -94,8 +93,6 @@ h5{
     text-align: center;
     margin-bottom: 20px;
     margin-top: 30px;
-    /* margin-bottom: 0px;
-    padding: 0px; */
 }
 
 #footer{
@@ -113,30 +110,24 @@ ul{
 span{
     background: rgb(163, 112, 32);
     box-sizing: content-box;
-    /* height: 30px;
-    width: 30px;   */
     padding: 5px;
 }
 
 #years{
     box-sizing: content-box;
-    width: 30px;  
     padding: 7.5px;
     padding-bottom: 7.5px;
-    /* border: 2px solid blue; */
 }
 
 
 #years2{
     box-sizing: content-box;
-    /* width: 100%;   */
     padding: 5.5px;
     padding-bottom: 8.5px;
 }
 
 #years3{
     box-sizing: content-box;
-    /* width: 100%;   */
     padding: 6px;
     padding-bottom: 8.5px;
 }
@@ -161,7 +152,6 @@ span{
 
 .grid-cell3 {
     border: 1px solid black;
-    /* font-size: 200%; */
     width: 1150px; 
     padding: 0px;
     margin: 0px;
@@ -174,9 +164,6 @@ span{
     text-align: left;
     color: rgb(60, 63, 112);
     list-style-type: none; 
-    /* background: 20px white;
-    background-position: center;
-    background-size: 40px; */
     margin: 14px;
     font-family: 'Electrolize', sans-serif;
     font-weight: bold;
