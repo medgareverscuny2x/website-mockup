@@ -57,11 +57,12 @@ a { text-decoration: none; color: white;}
 }
 
 h3{
+    font-family: 'Electrolize', sans-serif;
     padding: 0px;
     margin: 0px;
     padding-top: 8px;
     margin-bottom: 20px;
-    font-family: 'Electrolize', sans-serif;
+    
 }
 
 h1{
