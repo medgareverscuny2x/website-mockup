@@ -31,7 +31,7 @@ a { text-decoration: none; color: white;}
 .grid-container {
     display: grid;
     font-family: 'Space Mono', monospace;
-    grid-template-rows: 660px 490px 300px 65px 1fr 1fr;
+    grid-template-rows: 660px 490px 315px 65px 1fr 1fr;
     justify-content: center;
     padding: 0px;
     margin: 0px;
@@ -39,7 +39,7 @@ a { text-decoration: none; color: white;}
 
 .grid-cell {
     border: 1px solid black;
-    font-size: 200%;
+    /* font-size: 200%; */
     width: 1150px; 
     padding: 0px;
     margin: 0px;
@@ -60,21 +60,24 @@ a { text-decoration: none; color: white;}
 h3{
     padding: 0px;
     margin: 0px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 h1{
     padding: 5px;
+    margin-bottom: 5px;
     margin: 5px;
 }
 
 h2{
-    padding: 5px;
+    padding: 0px;
     margin: 5px;
+    margin-top: 0px;
 }
 
 section{
     font-family: 'Electrolize', sans-serif;
+    margin-top: 15px;
     padding: 25px;
     font-size: 15px;
 }
@@ -89,6 +92,8 @@ h5{
     color: white;
     font-size: 20px;
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
     /* margin-bottom: 0px;
     padding: 0px; */
 }
@@ -99,6 +104,41 @@ h5{
     text-align: center;
     font-size: 20px;
     margin-top: 22px;
+}
+
+ul{
+    margin: 0px;
+}
+
+span{
+    background: rgb(163, 112, 32);
+    box-sizing: content-box;
+    /* height: 30px;
+    width: 30px;   */
+    padding: 5px;
+}
+
+#years{
+    box-sizing: content-box;
+    width: 30px;  
+    padding: 7.5px;
+    padding-bottom: 7.5px;
+    /* border: 2px solid blue; */
+}
+
+
+#years2{
+    box-sizing: content-box;
+    /* width: 100%;   */
+    padding: 5.5px;
+    padding-bottom: 8.5px;
+}
+
+#years3{
+    box-sizing: content-box;
+    /* width: 100%;   */
+    padding: 6px;
+    padding-bottom: 8.5px;
 }
 
 .grid-cell2 {
@@ -121,59 +161,38 @@ h5{
 
 .grid-cell3 {
     border: 1px solid black;
-    font-size: 200%;
+    /* font-size: 200%; */
     width: 1150px; 
     padding: 0px;
     margin: 0px;
     background: rgb(145, 57, 54);
 }
 
+
 .bio li{
-    font-size: 20px;
-    text-align: center;
+    font-size: 15px;
+    text-align: left;
     color: rgb(60, 63, 112);
-    list-style-type: none; /* Remove bullets */
-    background: 20px white;
+    list-style-type: none; 
+    /* background: 20px white;
     background-position: center;
-    /* background-attachment: fixed; */
-    background-size: 40px;
+    background-size: 40px; */
+    margin: 14px;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: bold;
 }
 
-/* #first{
-    font-size: 20px;
+#timeline{
     text-align: center;
     background: white;
+    background-position: center;
+    background-size: 15px;
+    margin: auto;
+    padding: auto;
+    width: 650px;
+    height: 24px;
 }
 
-#second{
-    font-size: 20px;
-    text-align: center;
-    background: white;
-}
-
-#third{
-    font-size: 20px;
-    text-align: center;
-    background: white;
-}
-
-#fourth{
-    font-size: 20px;
-    text-align: center;
-    background: white;
-}
-
-#fifth{
-    font-size: 20px;
-    text-align: center;
-    background: white;
-}
-
-#sixth{
-    font-size: 20px;
-    text-align: center;
-    background: white;
-} */
 
 .grid-cell4 {
     border: 1px solid black;
